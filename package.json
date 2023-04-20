@@ -1,0 +1,22 @@
+{
+  "name": "multihash",
+  "version": "1.0.0",
+  "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomelewis2007/multihash.git"
+  },
+  "author": "Lewis Evans",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/awesomelewis2007/multihash/issues"
+  },
+  "homepage": "https://github.com/awesomelewis2007/multihash#readme",
+  "dependencies": {
+    "base32": "^0.0.7"
+  }
+}
