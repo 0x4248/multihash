@@ -1,6 +1,6 @@
 {
   "name": "@awesomelewis2007/multihash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/awesomelewis2007/multihash#readme",
   "dependencies": {
-    "base32": "^0.0.7"
+    "base32": "^0.0.7",
+    "js-sha3": "^0.8.0"
   },
   "directories": {
     "lib": "lib",

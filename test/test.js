@@ -5,10 +5,10 @@
  * Author: Lewis Evans
 */
 
-const hash = require("../src/index.js");
+const hash = require("../lib/index.js");
 
 const string = "Hello World!";
 
-let result = hash(string, ["sha256", "md5", "hex", "base64", "sha256"]);
+let result = hash(string, ["sha256", "md5", "hex", "base64", "sha384"]);
 
 console.log(result);
