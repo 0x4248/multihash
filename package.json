@@ -1,6 +1,6 @@
 {
   "name": "@awesomelewis2007/multihash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
   "main": "lib/index.js",
   "scripts": {
@@ -23,5 +23,18 @@
   "directories": {
     "lib": "lib",
     "test": "test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.12.13",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-jest": "^26.6.2",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
   }
 }
