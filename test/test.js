@@ -3,7 +3,7 @@
  * Hash strings trough multiple hashing algorithms and string manipulation functions
  * Github: https://github.com/awesomelewis2007/multihash
  * Author: Lewis Evans
-*/
+ */
 
 const hash = require("../lib/index.js");
 
