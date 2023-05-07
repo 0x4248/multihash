@@ -1,0 +1,32 @@
+# NPM Publish Workflow
+# Github: https://www.github.com/awesomelewis2007/workflows
+# By: Lewis Evans
+name: Npm publish
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - run: git pull 
+      - run: npm ci
+      - run: npm version patch --no-git-tag-version
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Bump version in package.json"
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
