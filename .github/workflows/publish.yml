@@ -19,6 +19,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm ci
+      - run: git pull
       - run: npm version patch --no-git-tag-version
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
