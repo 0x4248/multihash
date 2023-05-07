@@ -25,4 +25,4 @@ jobs:
           commit_message: "Bump version in package.json"
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
