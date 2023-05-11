@@ -14,6 +14,10 @@ const string = "Hello World!";
 hash = multi_hash.hash(string, ["sha256", "md5", "hex", "base64", "sha256"]);
 
 console.log(hash);
+
+// This will output:
+// d1f05379ee11c05da9c9ae1c084804f5ce5d2d5a0158b2279a48806fcc7d2db6
+
 ```
 
 ## Functions
