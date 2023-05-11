@@ -18,6 +18,7 @@
   "homepage": "https://github.com/awesomelewis2007/multihash#readme",
   "dependencies": {
     "base32": "^0.0.7",
+    "bcrypt": "^5.1.0",
     "js-sha3": "^0.8.0"
   },
   "directories": {

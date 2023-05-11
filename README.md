@@ -28,6 +28,10 @@ console.log(hash);
 - `sha3_256`
 - `sha3_384`
 - `sha3_512`
+- `bcrypt`
+- `bcrypt_strong`
+- `bcrypt_strongest`
+
 
 ### String manipulation functions
 
