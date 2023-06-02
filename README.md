@@ -35,7 +35,12 @@ console.log(hash);
 - `bcrypt`
 - `bcrypt_strong`
 - `bcrypt_strongest`
-
+- `blake2b`
+- `crc32`
+- `murmurhashv2`
+- `murmurhashv3`
+- `xxhash`
+- `keccak`
 
 ### String manipulation functions
 
