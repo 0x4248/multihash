@@ -1,0 +1,20 @@
+{
+    "name": "multihash",
+    "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
+    "version": "",
+    "main_file": "lib/index.js",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "/multihash",
+    "email": "none",
+    "languages": [
+        "javascript",
+        "typescript",
+        "css",
+        "html",
+        "c++",
+        "c",
+        "shell"
+    ],
+    "actions": {}
+}
