@@ -7,7 +7,7 @@ While storing passwords and information in a database with a sha256 hash is a go
 ## Usage
 
 ```javascript
-const multi_hash = require("@awesomelewis2007/multihash");
+const multi_hash = require("@lewisevans2007/multihash");
 
 const string = "Hello World!";
 
