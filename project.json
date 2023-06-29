@@ -5,7 +5,7 @@
     "main_file": "lib/index.js",
     "author": "Lewis Evans",
     "license": "GNU General Public License v3.0",
-    "url": "/multihash",
+    "url": "https://www.github.com/lewisevans2007/multihash",
     "email": "none",
     "languages": [
         "javascript",
