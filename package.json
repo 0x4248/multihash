@@ -1,5 +1,5 @@
 {
-  "name": "@lewisevans2007/multihash",
+  "name": "@awesomelewis2007/multihash",
   "version": "1.0.24",
   "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
   "main": "lib/index.js",
