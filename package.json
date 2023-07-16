@@ -1,6 +1,6 @@
 {
   "name": "@awesomelewis2007/multihash",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
   "main": "lib/index.js",
   "scripts": {
