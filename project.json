@@ -9,12 +9,6 @@
     "email": "none",
     "languages": [
         "javascript",
-        "typescript",
-        "css",
-        "html",
-        "c++",
-        "c",
-        "shell"
     ],
     "actions": {}
 }
