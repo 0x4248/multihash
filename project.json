@@ -3,9 +3,9 @@
     "description": "Hash strings trough multiple hashing algorithms and string manipulation functions",
     "version": "",
     "main_file": "lib/index.js",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public License v3.0",
-    "url": "https://www.github.com/lewisevans2007/multihash",
+    "url": "https://www.github.com/0x4248/multihash",
     "email": "none",
     "languages": [
         "javascript"

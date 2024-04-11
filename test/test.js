@@ -1,7 +1,7 @@
 /*
  * Multi hash
  * Hash strings trough multiple hashing algorithms and string manipulation functions
- * Github: https://github.com/lewisevans2007/multihash
+ * Github: https://github.com/0x4248/multihash
  * Author: Lewis Evans
  */
 
